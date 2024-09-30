@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/Users/sgracey/Code/espidf-arduino-blink/include",
-                "/Users/sgracey/Code/espidf-arduino-blink/src",
+                "/Users/sgracey/Code/demo_lvgl/include",
+                "/Users/sgracey/Code/demo_lvgl/src",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
-                "/Users/sgracey/Code/espidf-arduino-blink/.pio/build/esp32dev/config",
+                "/Users/sgracey/Code/demo_lvgl/.pio/build/esp32dev/config",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/newlib/platform_include",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/freertos/include",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/freertos/include/esp_additions/freertos",
@@ -167,10 +167,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/Users/sgracey/Code/espidf-arduino-blink/include",
-                    "/Users/sgracey/Code/espidf-arduino-blink/src",
+                    "/Users/sgracey/Code/demo_lvgl/include",
+                    "/Users/sgracey/Code/demo_lvgl/src",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
-                    "/Users/sgracey/Code/espidf-arduino-blink/.pio/build/esp32dev/config",
+                    "/Users/sgracey/Code/demo_lvgl/.pio/build/esp32dev/config",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/newlib/platform_include",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/freertos/include",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/freertos/include/esp_additions/freertos",
@@ -331,7 +331,6 @@
                 "_GNU_SOURCE",
                 "PLATFORMIO=60116",
                 "ARDUINO_ESP32_DEV",
-                "CONFIG_BLINK_GPIO=2",
                 "HAVE_CONFIG_H",
                 "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
                 "ARDUINO=10812",
