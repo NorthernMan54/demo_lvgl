@@ -10,6 +10,8 @@
             "includePath": [
                 "/Users/sgracey/Code/demo_lvgl/include",
                 "/Users/sgracey/Code/demo_lvgl/src",
+                "/Users/sgracey/Code/demo_lvgl/lib/lvgl",
+                "/Users/sgracey/Code/demo_lvgl/lib/lvgl/src",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                 "/Users/sgracey/Code/demo_lvgl/.pio/build/esp32dev/config",
                 "/Users/sgracey/.platformio/packages/framework-espidf/components/newlib/platform_include",
@@ -161,8 +163,6 @@
                 "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
-                "/Users/sgracey/Code/demo_lvgl/lib/lvgl",
-                "/Users/sgracey/Code/demo_lvgl/lib/lvgl/src",
                 "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                 ""
             ],
@@ -171,6 +171,8 @@
                 "path": [
                     "/Users/sgracey/Code/demo_lvgl/include",
                     "/Users/sgracey/Code/demo_lvgl/src",
+                    "/Users/sgracey/Code/demo_lvgl/lib/lvgl",
+                    "/Users/sgracey/Code/demo_lvgl/lib/lvgl/src",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                     "/Users/sgracey/Code/demo_lvgl/.pio/build/esp32dev/config",
                     "/Users/sgracey/.platformio/packages/framework-espidf/components/newlib/platform_include",
@@ -322,8 +324,6 @@
                     "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
-                    "/Users/sgracey/Code/demo_lvgl/lib/lvgl",
-                    "/Users/sgracey/Code/demo_lvgl/lib/lvgl/src",
                     "/Users/sgracey/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                     ""
                 ]
@@ -338,6 +338,7 @@
                 "ARDUINO_USB_MODE=1",
                 "ARDUINO_RUNNING_CORE=1",
                 "ARDUINO_EVENT_RUNNING_CORE=1",
+                "LV_CONF_PATH=/Users/sgracey/Code/demo_lvgl/src/lvgl/lv_conf.h",
                 "HAVE_CONFIG_H",
                 "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
                 "ARDUINO=10812",
